@@ -78,13 +78,20 @@ font-weight: bold;
 text-decoration: none;
 }
 .social a {
-font-size: 2rem;
-margin: 0 1rem;
-color: #0077b6;
-transition: 0.3s;
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: #0077b6;
+    transition: 0.3s;
+    text-decoration: none; /* Esta linha remove o sublinhado */
 }
 .social a:hover {
-color: #023e8a;
+    color: #023e8a;
+}
+/* Nova regra para as imagens dos ícones */
+.social img {
+    width: 40px; /* ou o tamanho que preferir */
+    height: 40px;
+    transition: 0.3s;
 }
 footer {
 background: #0077b6;
