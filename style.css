@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: 'Poppins', sans-serif;
+line-height: 1.6;
+background: #f9f9f9;
+color: #333;
+}
+.container {
+width: 90%;
+max-width: 1100px;
+margin: auto;
+padding: 2rem 0;
+text-align: center;
+}
+header {
+background: linear-gradient(135deg, #0077b6, #00b4d8);
+color: white;
+padding: 4rem 0;
+}
+header h1 {
+font-size: 2.5rem;
+}
+header p {
+margin: 0.5rem 0 1.5rem;
+}
+.btn {
+display: inline-block;
+background: white;
+color: #0077b6;
+padding: 0.7rem 1.5rem;
+border-radius: 30px;
+text-decoration: none;
+font-weight: bold;
+}
+section h2 {
+margin-bottom: 1rem;
+font-size: 2rem;
+color: #0077b6;
+}
+.skills {
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+flex-wrap: wrap;
+}
+.skill {
+background: #fff;
+padding: 1rem 2rem;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+font-weight: bold;
+}
+.skill i {
+margin-right: 8px;
+color: #0077b6;
+}
+.projetos-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 1.5rem;
+}
+.card {
+background: #fff;
+padding: 1.5rem;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card a {
+display: inline-block;
+margin-top: 1rem;
+color: #0077b6;
+font-weight: bold;
+text-decoration: none;
+}
+.social a {
+font-size: 2rem;
+margin: 0 1rem;
+color: #0077b6;
+transition: 0.3s;
+}
+.social a:hover {
+color: #023e8a;
+}
+footer {
+background: #0077b6;
+color: white;
+padding: 1rem;
+text-align: center;
+margin-top: 2rem;
+}
